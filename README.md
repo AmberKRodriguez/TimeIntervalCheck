@@ -116,5 +116,5 @@ one of the following messages depending upon which intervals it is within:
 • Neither interval contains the time HH:MM AM
 
 
-<img class="image" src="Screen Shot 2025-08-20 at 3.32.15 PM.png" height="500" align="center"/>
-<img class="image" src="Screen Shot 2025-08-20 at 3.32.40 PM.png" height="500" align="center"/> 
+<img class="image" src="Screen Shot 2025-08-20 at 3.32.15 PM.png" height="500" />
+<img class="image" src="Screen Shot 2025-08-20 at 3.32.40 PM.png" height="500" /> 
