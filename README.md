@@ -13,15 +13,14 @@
 
 <ol>
   <li>Create a constructor that accepts the start and end of an interval</li>
-Interval(T start, T end) 
-constructs an Interval object
-{this.start = start; this.end = end;
-  
+Interval(T start, T end)<br/>
+constructs an Interval object{this.start = start; this.end = end;<br/>
+  <br/>
 <li>Create a method within that is supplied an object of the generic type parameter</li>
-within(T object)
-returns whether that object is inside the interval including the endpoints:
-(object.compareTo(start) >= 0) && (object.compareTo(end) <= 0);
-
+within(T object)<br/>
+returns whether that object is inside the interval including the endpoints:<br/>
+(object.compareTo(start) >= 0) && (object.compareTo(end) <= 0);<br/>
+<br/>
 <li>Create a method subinterval that is passed an interval as a parameter</li>
 subinterval(Interval<T> interval)
 
@@ -115,3 +114,5 @@ one of the following messages depending upon which intervals it is within:
 • Neither interval contains the time HH:MM AM
 
 
+<img src="Screen Shot 2025-08-20 at 3.32.15 PM.png" height="500" align="center"/>
+<img src="Screen Shot 2025-08-20 at 3.32.40 PM.png" height="500" align="center"/> 
