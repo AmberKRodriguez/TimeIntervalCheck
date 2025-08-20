@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="/style.css"/>
+</head>
 <h2>Project Requirment:</h2>  
 <ul>
 <li> Writing a program to test the relationships between time intervals. </li>
@@ -114,5 +116,5 @@ one of the following messages depending upon which intervals it is within:
 • Neither interval contains the time HH:MM AM
 
 
-<img src="Screen Shot 2025-08-20 at 3.32.15 PM.png" height="500" align="center"/>
-<img src="Screen Shot 2025-08-20 at 3.32.40 PM.png" height="500" align="center"/> 
+<img class="image" src="Screen Shot 2025-08-20 at 3.32.15 PM.png" height="500" align="center"/>
+<img class="image" src="Screen Shot 2025-08-20 at 3.32.40 PM.png" height="500" align="center"/> 
