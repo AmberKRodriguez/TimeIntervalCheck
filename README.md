@@ -14,85 +14,101 @@
 <h3><a href="https://github.com/AmberKRodriguez/TimeIntervalCheck/blob/main/TimeIntervalCode/Interval.java">Interval Script</a></h3>
 
 <ol>
-  <li>Created a constructor that accepts the start and end of an interval</li>
-	<ul>
-	<li>Interval(T start, T end)</li>
-	<li>constructs an Interval object{this.start = start; this.end = end;</li>
-	</ul>
+<li>Created a constructor that accepts the start and end of an interval</li>
+		<ul>
+			<li>Interval(T start, T end)</li>
+			<li>constructs an Interval object{this.start = start; this.end = end;</li>
+		</ul>
 <br>	
 <li>Created a method within that is supplied an object of the generic type parameter</li>
-	<ul>
-	<li>within(T object)</li>
-	<li>returns whether that object is inside the interval including the endpoints:</li>
-	<li>(object.compareTo(start) >= 0) && (object.compareTo(end) <= 0);</li>
-	</ul>
+		<ul>
+			<li>within(T object)</li>
+			<li>returns whether that object is inside the interval including the endpoints:</li>
+			<li>(object.compareTo(start) >= 0) && (object.compareTo(end) <= 0);</li>
+		</ul>
 <br>	
 <li>Created a method subinterval that is passed an interval as a parameter</li>
-	<ul><li>subinterval(Interval<T> interval)</ul></li>
+	<ul>
+		<li>subinterval(Interval<T> interval)</li>
+	</ul>
 <br>
 <li>Return whether the interval parameter is a subinterval and completely within the interval on which the method is invoked</li>
-	<ul><li>interval.start.compareTo(this.start) >= 0 && interval.end.compareTo(this.end) <= 0;</li></ul>
+	<ul>
+		<li>interval.start.compareTo(this.start) >= 0 && interval.end.compareTo(this.end) <= 0;</li>
+	</ul>
 <br>
 <li>Created a method overlaps that is passed an interval as a parameter</li>
-	<ul><li>overlaps(Interval<T> interval)</li></ul>
+	<ul>
+		<li>overlaps(Interval<T> interval)</li>
+	</ul>
 <br>
 <li>Return whether the interval parameter overlaps the interval on which the method is invoked</li>
 	<ul>
-	<li>interval.start.compareTo(this.end) < 0&&</li>
-	<li>this.start.compareTo(interval.end) < 0;</li>
+		<li>interval.start.compareTo(this.end) < 0&&</li>
+		<li>this.start.compareTo(interval.end) < 0;</li>
 	</ul>
 </ol>
+		
 <br>
 <h3><a href="TimeIntervalCode/Time.java">Time Script</a></h3>
 <ol>
 <li>Created a constructor that accepts the hours and minutes as integers and the meridian as a string </li>
-	<ul><li>Time(int hours, int minutes, String meridian) </li></ul>
+		<ul>
+			<li>Time(int hours, int minutes, String meridian) </li>
+		</ul>
 <br>	 
 <li>constructed a Time object:</li>
-	<ul>
-	<li>this.hours = hours;</li>
-	<li>this.minutes = minutes;</li>
-	<li>this.meridian = meridian;</li>
-	</ul>
+		<ul>
+			<li>this.hours = hours;</li>
+			<li>this.minutes = minutes;</li>
+			<li>this.meridian = meridian;</li>
+		</ul>
 <br>
 <li>Created a constructor that accepts a string representation of a time in the format HH:MM AM </li>
-	<ul><li>Time(String time)</li></ul>
+		<ul>
+			<li>Time(String time)</li>
+		</ul>
 <br>
 <li>constructed a Time object </li>
-	<ul>
-	<li>this.hours = h;</li>
-	<li>this.minutes = m;</li>
-	<li>this.meridian = mer;</li>
-	</ul>
+		<ul>
+			<li>this.hours = h;</li>
+			<li>this.minutes = m;</li>
+			<li>this.meridian = mer;</li>
+		</ul>
 <br>
 <li>Created a method compareTo that compares two times</li>
-	<ul>
-	<li>compareTo(Time secondTime)</li>
-	<li>if (this.meridian.equals(secondTime.meridian)){ </li>
-	</ul>
+		<ul>
+			<li>compareTo(Time secondTime)</li>
+			<li>if (this.meridian.equals(secondTime.meridian)){ </li>
+		</ul>
 <br>
 <li>Return what is required of all such methods needed to implement the Comparable interface</li>
-<ul><li>return (this.hours %12 * 60 + this.minutes) - (secondTime.hours %12 * 60 + secondTime.minutes);</li></ul>
+		<ul>
+			<li>return (this.hours %12 * 60 + this.minutes) - (secondTime.hours %12 * 60 + secondTime.minutes);</li>
+		</ul>
 <br>
 
-<li>Created a method toString that returns the string representation of the time in the format time the format HH:MM AM
-<ul><li>String.format("%02d:%02d %s", hours, minutes, meridian);</li></ul>
+<li>Created a method toString that returns the string representation of the time in the format time the format HH:MM AM</li>
+		<ul>
+			<li>String.format("%02d:%02d %s", hours, minutes, meridian);</li>
+		</ul>
 
 </ol>
 
+<br>
 <h3><a href="TimeIntervalCode/InvalidTime.java">InvalidTime Script</a></h3> 
 <ol>
 <li>Created a constructor that accepts the message as a string and constructs an InvalidTime object </li>
 	<ul>
-	<li>InvalidTime(String message){</li>
-	<li>constructs an InvalidTime object </li>
-	<li>this.message = message;</li>
+		<li>InvalidTime(String message){</li>
+		<li>constructs an InvalidTime object </li>
+		<li>this.message = message;</li>
 	</ul>
 <br>
 <li>Created a method getMessage that returns the message</li>
 	<ul>
-	<li>String getMessage() { </li>
-	<li>return message;</li>
+		<li>String getMessage() { </li>
+		<li>return message;</li>
 	</ul>
 </ol>
 <br>
@@ -100,10 +116,10 @@
 <h3><a href="https://github.com/AmberKRodriguez/TimeIntervalCheck/blob/main/TimeIntervalCode/Main.java">Main Script</a></h3> 
 
 
-Implement a GUI interface that contains two buttons.
+<li>Implement a GUI interface that contains two buttons.</li>
 <br>
 <ol>
-	<li>The first button CompareIntervals should compare the two intervals and output one of the following messages depending upon how the intervals compare:</li>
+	<li>The first button CompareIntervals should compare the two intervals and output one of the following messages depending upon how the intervals compare</li>
 		<ul>
 			<li>Interval 1 is a sub-interval of interval 2</li>
 			<li>Interval 2 is a sub-interval of interval 1</li>
