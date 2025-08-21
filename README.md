@@ -10,7 +10,7 @@
 
 <h2>Explain Scripts & Steps Taken:</h2>
 
-<h3>Interval Script</h3>
+<h3><a href="https://github.com/AmberKRodriguez/TimeIntervalCheck/blob/main/TimeIntervalCode/Interval.java">Interval Script</a></h3>
 
 <ol>
   <li>Create a constructor that accepts the start and end of an interval</li>
@@ -36,7 +36,7 @@ this.start.compareTo(interval.end) < 0;
 
 </ol>
 
-<h3>Time Script</h3>
+<h3><a href="TimeIntervalCode/Time.java">Time Script<a/></h3>
  
 
 
@@ -69,7 +69,7 @@ A method toString that returns the string representation of the time in the form
 String.format("%02d:%02d %s", hours, minutes, meridian);
 
 
-<h3>InvalidTime Script</h3> 
+<h3><a href="TimeIntervalCode/InvalidTime.java">InvalidTime Script</a></h3> 
 
 
 
@@ -88,7 +88,7 @@ String getMessage() {
 
 
 
-<h3>Project4 Script</h3> 
+<h3><a href="https://github.com/AmberKRodriguez/TimeIntervalCheck/blob/main/TimeIntervalCode/Main.java">Main Script</a></h3> 
 
 
 Implement a GUI interface that contains two buttons. 
