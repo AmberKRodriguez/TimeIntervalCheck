@@ -1,4 +1,4 @@
-/* 
+//* 
 Amber Rodriguez 
 05.04.25
 Project 4 : JavaFX application for comparing two time intervals 
@@ -118,13 +118,13 @@ public class Main extends Application {
    private void compareIntervals() {
        try {
     	   
-           Time str1 = new Time(startTime1.getText());
+           Time start1 = new Time(startTime1.getText());
            Time end1 = new Time(endTime1.getText());
-           Time str2 = new Time(startTime2.getText());
+           Time start2 = new Time(startTime2.getText());
            Time end2 = new Time(endTime2.getText());
            
-           Interval<Time> interval1 = new Interval<>(str1, end1);
-           Interval<Time> interval2 = new Interval<>(str2, end2);
+           Interval<Time> interval1 = new Interval<>(start1, end1);
+           Interval<Time> interval2 = new Interval<>(start2, end2);
            
            String result;
            
