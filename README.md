@@ -53,45 +53,45 @@
 <h3><a href="TimeIntervalCode/Time.java">Time Script</a></h3>
 <ol>
 <li>Created a constructor that accepts the hours and minutes as integers and the meridian as a string </li>
-		<ul>
-			<li>Time(int hours, int minutes, String meridian) </li>
-		</ul>
+	<ul>
+		<li>Time(int hours, int minutes, String meridian) </li>
+	</ul>
 <br>	 
 <li>constructed a Time object:</li>
-		<ul>
-			<li>this.hours = hours;</li>
-			<li>this.minutes = minutes;</li>
-			<li>this.meridian = meridian;</li>
-		</ul>
+	<ul>
+		<li>this.hours = hours;</li>
+		<li>this.minutes = minutes;</li>
+		<li>this.meridian = meridian;</li>
+	</ul>
 <br>
 <li>Created a constructor that accepts a string representation of a time in the format HH:MM AM </li>
-		<ul>
-			<li>Time(String time)</li>
-		</ul>
+	<ul>
+		<li>Time(String time)</li>
+	</ul>
 <br>
 <li>constructed a Time object </li>
-		<ul>
-			<li>this.hours = h;</li>
-			<li>this.minutes = m;</li>
-			<li>this.meridian = mer;</li>
-		</ul>
+	<ul>
+		<li>this.hours = h;</li>
+		<li>this.minutes = m;</li>
+		<li>this.meridian = mer;</li>
+	</ul>
 <br>
 <li>Created a method compareTo that compares two times</li>
-		<ul>
-			<li>compareTo(Time secondTime)</li>
-			<li>if (this.meridian.equals(secondTime.meridian)){ </li>
-		</ul>
+	<ul>
+		<li>compareTo(Time secondTime)</li>
+		<li>if (this.meridian.equals(secondTime.meridian)){ </li>
+	</ul>
 <br>
 <li>Return what is required of all such methods needed to implement the Comparable interface</li>
-		<ul>
-			<li>return (this.hours %12 * 60 + this.minutes) - (secondTime.hours %12 * 60 + secondTime.minutes);</li>
-		</ul>
+	<ul>
+		<li>return (this.hours %12 * 60 + this.minutes) - (secondTime.hours %12 * 60 + secondTime.minutes);</li>
+	</ul>
 <br>
 
 <li>Created a method toString that returns the string representation of the time in the format time the format HH:MM AM</li>
-		<ul>
-			<li>String.format("%02d:%02d %s", hours, minutes, meridian);</li>
-		</ul>
+	<ul>
+		<li>String.format("%02d:%02d %s", hours, minutes, meridian);</li>
+	</ul>
 
 </ol>
 
@@ -139,5 +139,3 @@
 <img class="image" src="Screen Shot 2025-08-20 at 3.32.15 PM.png" height="500" />
 <img class="image" src="Screen Shot 2025-08-20 at 3.32.40 PM.png" height="500" /> 
 <img class="image" src="Screen Shot 2025-08-20 at 3.32.29 PM.png" height="500" /> 
-
-TimeIntervalProject/src/application/Main.java
